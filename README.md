@@ -24,17 +24,17 @@ This code implements a simple version of the Observer Design Pattern, using a Te
 ### 1. Telephone
 The Telephone class maintains a list of phone numbers and observers. It supports the following functionalities:
 
-*addPhoneNumber(phoneNumber):* Adds a phone number to the list.
-*removePhoneNumber(phoneNumber):* Removes a phone number from the list.
-*dialPhoneNumber(phoneNumber):* Dials a phone number if it exists in the list and notifies all observers.
-*addObserver(observer):* Adds an observer to the list of observers.
-*removeObserver(observer):* Removes an observer from the list.
-*notifyObservers(message):* Notifies all observers with a message.
+**addPhoneNumber(phoneNumber):** Adds a phone number to the list.
+**removePhoneNumber(phoneNumber):** Removes a phone number from the list.
+**dialPhoneNumber(phoneNumber):** Dials a phone number if it exists in the list and notifies all observers.
+**addObserver(observer):** Adds an observer to the list of observers.
+**removeObserver(observer):** Removes an observer from the list.
+**notifyObservers(message):** Notifies all observers with a message.
 
 ### 2. Observers
 The Observers class represents an observer. It supports:
 
-*notify(phoneNumber):* Called when the observer is notified about a dialed phone number, showing a message that the observer is aware of the phone number being dialed.
+**notify(phoneNumber):** Called when the observer is notified about a dialed phone number, showing a message that the observer is aware of the phone number being dialed.
 
 ## How to Run:
 Save the code in a .js file (e.g., telephoneObserver.js).
